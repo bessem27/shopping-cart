@@ -1,0 +1,63 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(42, 147, 165);
+}
+.shopping-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    border-bottom: 1px solid grey;
+}
+.shopping-item-image {
+    width: 80px;
+    height: 80px;
+    background-size: cover;
+}
+ 
+  h1, p {
+      color: white;
+  }
+  
+  h1{
+      letter-spacing: 15px;
+  }
+  .itemsSection{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      justify-items: center;
+      align-items: center;
+  }
+  .introToProducts{
+      color: black;
+      margin-top: 50px;
+      padding: 25px 25px;
+      letter-spacing: 5px;
+      border: 1.5px currentColor black;
+  }
+  .row-cards-items{
+      display: flex;
+      justify-content: center;
+      align-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      padding: 50px 0px;
+  }
+  .card-body{
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      flex-wrap: wrap;
+  }
+  .cart-total-title{
+    font-weight:bold;
+    font-size: 3em;
+    margin-right: 20px;
+    
+}
+.cart-total-price{
+    font-size: 3em;
+}
+ 
